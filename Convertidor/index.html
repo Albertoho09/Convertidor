@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor Youtube</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <form id="miFormulario">
+            <div id="formulario">
+                <div id="url" class="form-group">
+                    <label for="campoInput">URL Youtube:</label>
+                    <input type="text" class="form-control" id="urlInput" placeholder="Ingrese la URL">
+                </div>
+                <div id="selector" class="form-group">
+                    <select class="form-control" id="selectorTipo">
+                        <option>mp3</option>
+                        <option>mp4</option>
+                    </select>
+                </div>
+            </div>
+            <div id="boton">
+                <button id="botonSubmit" type="submit" class="btn btn-primary">Convertir</button>
+            </div>
+        </form>
+        <div id="tarjeta-container" class="container mt-5"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="default.js"></script>
+</body>
+
+</html>

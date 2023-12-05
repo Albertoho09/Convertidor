@@ -1,0 +1,46 @@
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    margin: 0;
+    overflow-x: hidden; /* Para evitar barras de desplazamiento horizontales al hacer scroll */
+}
+#formulario{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#formulario #url{
+    width: 50%;
+    padding-right: 10px;
+}
+
+#boton{
+    display: flex;
+    justify-content: center;
+}
+#boton button{
+    width: 40%;
+}
+
+.imagen-derecha {
+    max-width: 300px; 
+    max-height: 300px; 
+}
+
+.carta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cartaBox{
+    margin-bottom: 15px;
+}
+
+.selectorRes{
+    margin-left: 10px;
+}
